@@ -1,0 +1,105 @@
+/* body */
+body{
+    background-color: rgba(192, 186, 175, 0.782);
+}
+/* navbar */
+nav{
+    background-color: rgba(165, 42, 42, 0.825);
+    font-weight: 700;
+}
+nav li :hover{
+    background-color: rgba(252, 247, 247, 0.859);
+    text-transform: lowercase;
+}
+ 
+/* sec 1 */
+.home{
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: beige;
+}
+.home1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0 , 0 , 0 , 0.6);
+}
+.home2 h1{
+font-size: 75px;
+font-weight: 900;
+animation-name: zezo ;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+}
+@keyframes zezo {
+   0%{color: rgb(255, 0, 0);}
+   20%{color: rgb(190, 255, 13);}
+   30%{color: rgb(214, 121, 0);}
+   50%{color: rgb(215, 83, 116);}
+   60%{color: rgb(16, 48, 228);}
+   80%{color: rgb(4, 212, 209);}
+   100%{color: rgb(249, 31, 220);}
+}
+.home2 a :hover{
+    color:blanchedalmond
+}
+h1{
+animation-name: zezo ;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+text-shadow: 0px 2px 5px;
+}   
+@keyframes zezo {
+    0%{color: rgb(255, 0, 0);}
+    20%{color: rgb(190, 255, 13);}
+    30%{color: rgb(214, 121, 0);}
+    50%{color: rgb(215, 83, 116);}
+    60%{color: rgb(16, 48, 228);}
+    80%{color: rgb(4, 212, 209);}
+    100%{color: rgb(249, 31, 220);}
+ }
+ /* sec 2 */
+ .row1{
+    box-shadow: 0px 0px 30px black;
+ }
+ /* sec3  */
+ .btn1{
+    box-shadow: 0px 0px 20px rgb(3, 45, 30);
+    border-radius: 12px;
+    background-color: aqua;
+    padding: 8px 10px;
+    width: 50%;
+ }
+.btn1:hover{
+    box-shadow: 0px 0px 40px rgb(255, 0, 183);
+}
+.card{
+    box-shadow: 0px 0px 20px black;
+}
+/* sec 4 */
+.row2{
+    box-shadow: 0px 0px 30px black;
+}
+/* sec 5 */
+.btn{
+    box-shadow: 0px 0px 20px rgb(3, 45, 30);
+    border-radius: 12px;
+    background-color: aqua;
+    padding: 8px 10px;
+    width: 15%;
+}
+.btn:hover{
+    box-shadow: 0px 0px 40px rgb(255, 0, 183);
+}
+.row3{
+    box-shadow: 0px 0px 30px black;
+}
